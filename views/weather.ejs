@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+<div class="bg">
+  <center><div class="content  ">
+    <form method="post" action="/weather">
+    <h1>The temperature in <%=place%> is <%= temp %> degree Celcius.</h1>
+   <h3>Weather : <%=des%></h3>
+   <img src="<%= imageurl %>"><br>
+
+   <button class="btn ">Go Back</button>
+      <div class="p-3"></div>
+   </div></center>
+
+
+
+  </body>
+</html>
